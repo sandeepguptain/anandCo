@@ -966,7 +966,6 @@ section,
 --------------------------------------------------------------*/
 .featured-services {
   --surface-color: color-mix(in srgb, var(--default-color), transparent 96%);
-  padding-top: 0;
 }
 
 .featured-services .service-item {

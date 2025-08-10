@@ -55,5 +55,20 @@ ng e2e
 Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
 ## Additional Resources
+https://stackoverflow.com/questions/77868506/swiper-in-angular-17
+https://dev.to/chabbasaad/sending-email-using-nodejs-and-nodemailer-with-angular-app-contact-form-5c58
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## Generate an App Password
+Go to: https://myaccount.google.com/apppasswords
+
+Log in with your Gmail account.
+
+For Select app, choose Mail.
+
+For Select device, choose Other and type something like Nodemailer.
+
+Click Generate.
+
+Copy the 16-character password (it will have spaces, but you use it without spaces).
