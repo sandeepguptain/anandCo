@@ -36,7 +36,7 @@ export default async function handler(req, res) {
 
     // Confirmation Email to User
     await transporter.sendMail({
-      from: `"Your Company" <${process.env.MAIL_USER}>`,
+      from: `"Anand & Co." <${process.env.MAIL_USER}>`,
       to: email,
       subject: 'We Received Your Message',
       text: 'Thanks for contacting us. We will get back to you shortly.',

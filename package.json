@@ -9,7 +9,8 @@
     "serve:prod": "npm run build && node server/server.js",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:anandCo": "node dist/anand-co/server/server.mjs"
+    "serve:ssr:anandCo": "node dist/anand-co/server/server.mjs",
+    "vercelDev":"vercel dev"
   },
   "private": true,
   "dependencies": {
