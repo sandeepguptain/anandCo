@@ -941,8 +941,8 @@ section,
   }
 
   .hero p {
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 26px;
+    line-height: 36px;
     margin-bottom: 30px;
   }
 
@@ -999,7 +999,7 @@ section,
 
 .featured-services .service-item p {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 15px;
   margin-bottom: 0;
 }
 
