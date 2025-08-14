@@ -91,8 +91,8 @@
             <div class="icon"><i class="bi bi-buildings icon"></i></div>
             <h4><a href="" class="stretched-link">INDSUTRIAL SOLUTIONS</a></h4>
             <p>
-              Innovation and Efficiency meets elegance with our premium
-              hardware solutions
+              Innovation and Efficiency meets elegance with our premium hardware
+              solutions
             </p>
           </div>
         </div>
@@ -620,7 +620,8 @@
     <!-- End Section Title -->
 
     <div class="container" data-aos="fade-up" data-aos-delay="100">
-      <swiper-container loop="true">
+     
+      <swiper-container loop="true"  pagination="true" autoplay="true">
         <swiper-slide
           ><div class="swiper-slide swiper-tab">
             <div class="testimonial-item">
@@ -720,7 +721,7 @@
           </div>
           <!-- End testimonial item --></swiper-slide
         >
-      </swiper-container>
+      </swiper-container>      
     </div>
   </section>
   <!-- /Testimonials Section -->
@@ -848,13 +849,12 @@
                 </button>
                 <div>
                   @if(showLoader){
-                    <div class="loading">Sending</div>
-                 }
-                @if(successMessage){
-                {{ successMessage }}
-                } @if(errorMessage){
-                {{ errorMessage }}
-                }
+                  <div class="loading">Sending</div>
+                  } @if(successMessage){
+                  {{ successMessage }}
+                  } @if(errorMessage){
+                  {{ errorMessage }}
+                  }
                 </div>
               </div>
             </div>
@@ -879,10 +879,14 @@
       <div class="col-12">
         <div class="social-links d-flex justify-content-center">
           <a href=""><i class="bi bi-twitter-x"></i></a>
-          <a href="https://www.facebook.com/www.anandnco.in" target="_blank"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.facebook.com/www.anandnco.in" target="_blank"
+            ><i class="bi bi-facebook"></i
+          ></a>
           <a href=""><i class="bi bi-instagram"></i></a>
           <a href=""><i class="bi bi-linkedin"></i></a>
-          <a href="https://www.youtube.com/@anandnco" target="_blank"><i class="bi bi-youtube"></i></a>
+          <a href="https://www.youtube.com/@anandnco" target="_blank"
+            ><i class="bi bi-youtube"></i
+          ></a>
         </div>
       </div>
     </div>
